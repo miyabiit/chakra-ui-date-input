@@ -2,7 +2,6 @@
 import {
   ArrowLeftIcon,
   ArrowRightIcon,
-  ChevronDownIcon,
   ChevronLeftIcon,
   ChevronRightIcon,
   CalendarIcon,
