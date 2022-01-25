@@ -4,7 +4,8 @@ import {
   ArrowRightIcon,
   ChevronDownIcon,
   ChevronLeftIcon,
-  ChevronRightIcon
+  ChevronRightIcon,
+  CalendarIcon,
 } from '@chakra-ui/icons'
 import {
   InputProps as ChakraInputProps,
@@ -101,7 +102,7 @@ export const DatePicker = (props: IDatePickerProps) => {
       <MenuButton w='100%' type='button'>
         <InputGroup>
           <Input color={color} ref={inputRef} {...rest} />
-          <InputRightElement children={<ChevronDownIcon w={5} h={5} />} />
+          <InputRightElement children={<CalendarIcon w={5} h={5} />} />
         </InputGroup>
       </MenuButton>
       <MenuList>
